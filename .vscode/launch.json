@@ -13,14 +13,15 @@
             "stopOnEntry": false,
             "mainClass": "org.springframework.samples.petclinic.PetClinicApplication",
             "projectName": "spring-petclinic",
-            "args": ""
+            "args": "",
+            "port": 8081
         },
         {
             "type": "java",
             "name": "Debug (Attach)",
             "request": "attach",
             "hostName": "localhost",
-            "port": 0
+            "port": 8081
         }
     ]
 }
