@@ -53,6 +53,10 @@ public class Owner extends Person {
 	@Column(name = "city")
 	@NotEmpty
 	private String city;
+	
+	@Column(name = "sex")
+	@NotEmpty
+	private String sex;
 
 	@Column(name = "telephone")
 	@NotEmpty
